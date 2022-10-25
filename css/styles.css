@@ -1,0 +1,122 @@
+/* колір основного тексту #212121 */
+/* додатковий колір тексту #757575 */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+/* колір основного фону #F5F5F5 */
+/* додатковий колір фону #F5F4FA */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #F5F5F5;
+    --logo-text-color: #000000;
+    --primary-white-color: #FFFFFF;
+    --bg-footer-color: #2F303A;
+    --contact-footer-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.page-header {
+    background-color: var(--primary-white-color);
+}
+
+.logo {
+    color: var(--accent-color);
+}
+
+.logo-text {
+    color: var(--logo-text-color);
+}
+
+/* Site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Contacts */
+
+.contacts .contact {
+    color: var(--primary-text-color);
+}
+
+.contacts .contact:hover,
+.contacts .contact:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+    color: var(--primary-white-color);
+}
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* Our team */
+
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+/* Button */
+
+.button {    
+    background-color: var(--primary-bg-color);
+    color: var(--title-text-color);
+}
+
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+/* Footer */
+
+.page-footer {
+    background-color: var(--bg-footer-color);
+}
+
+.logo-footer {
+    color: var(--accent-color);
+}
+
+.logo-footer .text {
+    color: var(--primary-white-color);
+}
+
+.address {
+    color: var(--primary-white-color);
+}
+
+.contact-footer {
+    color: var(--contact-footer-color);
+}
