@@ -14,6 +14,7 @@
     --primary-white-color: #FFFFFF;
     --bg-footer-color: #2F303A;
     --contact-footer-color: rgba(255, 255, 255, 0.6);
+    --button-active-color: #188CE8;
 }
 
 body {
@@ -99,6 +100,11 @@ body {
     color: var(--primary-white-color);
 }
 
+.button.primary:hover,
+.button.primary:focus {
+    background-color: var(--button-active-color);
+}
+
 /* Footer */
 
 .page-footer {
@@ -119,4 +125,11 @@ body {
 
 .contact-footer {
     color: var(--contact-footer-color);
+}
+
+.address:hover,
+.address:focus,
+.contact-footer:hover,
+.contact-footer:focus {
+    color: var(--accent-color);
 }
